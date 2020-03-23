@@ -1,0 +1,74 @@
+/*form background style*/
+.register{
+  width: 550px;
+  height:auto;
+  margin:0 auto;
+  border: 1px solid #ccc;
+  color:white;
+  background-color: #226868;
+}
+/*form style*/
+.form{
+  width:467.5px;
+  height:auto;
+  margin: 0 7.5% 2% 7.5%;
+
+}
+.form h1{
+  text-align: center;
+  font-size: 48px;
+}
+/*div in the form style*/
+.form div{
+  width:374px;
+  height:80px;
+  padding:1%;
+}
+/*form input style*/
+.form input{
+  width:110%;
+  height: 30px;
+  font-size: 150%;
+  border-radius:5px;
+  border-color: white;
+}
+/*focus on the input when it is active*/
+.form input:focus{
+  border:3px solid #EEAC14;
+}
+.form label{
+  font-size: 200%;
+  color: white;
+}
+.form input[type=submit]{
+  width: 30%;
+  height: 50px;
+  margin-top: 30px;
+  padding: 3px;
+  background-color: #EEAC14;
+  border: #EEAC14;
+  color: #050300;
+  font-size: 25px;
+  font-weight: bold;
+}
+.form .birthdate{
+  width:50%;
+}
+/*style first name and last name to put side by side*/
+.form .first_name{
+  width:45%;
+  float: left;
+  color:black;
+}
+.first_name input{
+  width:114%;
+}
+.form .last_name{
+  width:45%;
+  float:left;
+  margin-left: 6%;
+  color:black;
+}
+.last_name input{
+  width:114%;
+}
